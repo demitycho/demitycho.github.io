@@ -21,6 +21,7 @@ h3{font-size:24px;line-height:24px;}
 h4{font-size:18px;}
 h5{font-size:14px;}
 h6{font-size:12px;}
+.col-md-2{ width: 20%; }
 .form-control{height:45px;background-color:#f7f7f7;border:1px solid #e8e8e8;border-radius:0;box-shadow:none;}
 .form-control:focus{border-color:#FACF50;box-shadow:none;}
 .alert{padding:10px 15px;margin-top:20px;margin-bottom:20px;border-radius:0;}
@@ -59,7 +60,7 @@ ul.list-check li{position:relative;font-size:18px;line-height:32px;}
 ul.list-check li::before{content:"\f00c";font-family:fontawesome;color:#FACF50;margin-right:10px;}
 .section-padding{padding:120px 0 100px;}
 .section-title{margin-bottom:80px;text-align:center;font-size:50px;line-height:50px;color:#2c3e50;position:relative;}
-.blog-title span{margin-bottom:80px;text-align:center;font-size:50px;line-height:50px;color:#68c3a4;position:relative;}
+.blog-title span{margin-bottom:80px;text-align:center;font-size:50px;line-height:50px;color:#FACF50;position:relative;}
 .section-title::after{content:"";background:url(../../assets/images/section-divider.png) no-repeat 0 0;height:15px;width:113px;position:absolute;left:0;right:0;bottom:-40px;margin:0 auto;}
 @media (max-width:640px){.tt-fullHeight{height:560px !important;}
 }
@@ -192,12 +193,13 @@ ul.list-check li::before{content:"\f00c";font-family:fontawesome;color:#FACF50;m
 .portfolio-item{padding-right:5px;padding-left:5px;min-height:235px;}
 .portfolio-bg{background:#fff;padding:5px;margin-bottom:20px;border:1px solid #eee;border-bottom:3px double #eee;}
 .portfolio{position:relative;overflow:hidden;}
+.portfolio-info h5{ margin-top: 10px; }
 #filter{margin:0 0 35px;text-align:center;}
 #filter li a{color:#FACF50;display:block;text-transform:uppercase;padding:0 15px;border-radius:4px;transition:inherit;}
 #filter li a.active,
 #filter li a:hover{position:relative;background:#FACF50;color:#fff;border-bottom:3px solid rgba(0, 0, 0, 0.15);}
 #filter li a.active::after,
-#filter li a:hover::after{position:absolute;content:"";width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:10px solid rgba(104, 195, 163, 1);bottom:-9px;left:50%;margin-left:-8px;}
+#filter li a:hover::after{position:absolute;content:"";width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:10px solid rgba(250, 207, 80, 1);bottom:-9px;left:50%;margin-left:-8px;}
 .tt-overlay{position:absolute;background-color:rgba(26, 30, 31, 0.85);width:100%;height:100%;opacity:0;}
 .portfolio-info,
 .links,
@@ -220,7 +222,7 @@ ul.list-check li::before{content:"\f00c";font-family:fontawesome;color:#FACF50;m
 .mfp-with-zoom.mfp-ready.mfp-bg{opacity:0.8;}
 .mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg{opacity:0;}
-.facts-section{background:url(../../assets/images/counter-bg.jpg) no-repeat center center;background-attachment:fixed;background-size:cover;color:#fff;}
+.facts-section{background:url(../../assets/images/codingflatlay.jpg) no-repeat center center;background-attachment:fixed;background-size:cover;color:#fff;}
 .tt-overlay-bg{background:rgba(26, 30, 35, 0.85);padding:110px 0;}
 .count-wrap i{font-size:64px;margin-bottom:25px;}
 .count-wrap h3{font-size:50px;line-height:28px;margin-bottom:20px;}
@@ -258,11 +260,23 @@ ul.list-check li::before{content:"\f00c";font-family:fontawesome;color:#FACF50;m
 .the-time::before,
 .the-share::before,
 .the-comments::before{font-family:FontAwesome;position:absolute;left:0;}
-.hire-section{background:url(../../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;background-attachment:fixed;background-size:cover;color:#fff;}
-.quote-section{background:url(../../assets/images/quote-bg.jpg) no-repeat top center #68C3A3;background-attachment:fixed;background-size:cover;color:#fff;}
+.hire-section{background:url(../../assets/images/hire-bg.jpg) no-repeat top center #fff;background-attachment:fixed;background-size:cover;color:#fff;}
+
+.quote-section{background:url(https://upload.wikimedia.org/wikipedia/en/a/af/Singapore_Skyline_Panorama_touchup.png) no-repeat top center #fff;background-attachment:fixed;background-size:cover;color:#fff;}
 .quote-section span{font-size:42px;color:#FACF50;margin-bottom:12px;}
 .hire-section-bg{padding:120px 0;background:-webkit-linear-gradient(bottom, #000000, rgba(255, 255, 255, 0.15));background:-o-linear-gradient(top, #000000, rgba(255, 255, 255, 0.15));background:-moz-linear-gradient(top, #000000, rgba(255, 255, 255, 0.15));background:linear-gradient(to top, #000000, rgba(255, 255, 255, 0.15));}
-.quote-section-bg{padding:110px 0;background:-webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7));background:-o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7));background:-moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7));background:linear-gradient(to top, #68C3A3, rgba(104, 195, 163, 0.7));}
+
+.hire-section2{
+	background:url(../../assets/images/starperformer.jpg) no-repeat top center #fff;
+	background-attachment:fixed;
+	background-size:cover;
+	color:#fff;
+	min-height: 650px;
+}
+.hire-section2-bg{min-height: 650px;padding:120px 0;background:-webkit-linear-gradient(bottom, #000000, rgba(255, 255, 255, 0.15));background:-o-linear-gradient(top, #000000, rgba(255, 255, 255, 0.15));background:-moz-linear-gradient(top, #000000, rgba(255, 255, 255, 0.15));background:linear-gradient(to top, #000000, rgba(255, 255, 255, 0.15));}
+.hire-section2 h2{font-size:36px;margin-bottom:40px;}
+.hire-section2 span{font-size:36px;color:#FACF50;margin-bottom:12px;.hire-section .btn{padding:9px 54px;}
+.quote-section-bg{padding:110px 0;background:-webkit-linear-gradient(bottom, #fff, rgba(104, 195, 163, 0.7));background:-o-linear-gradient(top, #fff, rgba(104, 195, 163, 0.7));background:-moz-linear-gradient(top, #fff, rgba(104, 195, 163, 0.7));background:linear-gradient(to top, #fff, rgba(104, 195, 163, 0.7));}
 .hire-section h2{font-size:36px;margin-bottom:40px;}
 .hire-section span{font-size:36px;color:#FACF50;margin-bottom:12px;.hire-section .btn{padding:9px 54px;}
 .contact-section{}
