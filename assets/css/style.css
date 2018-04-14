@@ -64,7 +64,7 @@ ul.list-check li::before{content:"\f00c";font-family:fontawesome;color:#FACF50;m
 .section-title::after{content:"";background:url(../../assets/images/section-divider.png) no-repeat 0 0;height:15px;width:113px;position:absolute;left:0;right:0;bottom:-40px;margin:0 auto;}
 @media (max-width:640px){.tt-fullHeight{height:560px !important;}
 }
-#home{background:url(../images/home33.gif) no-repeat center center;-webkit-background-attachment:fixed;background-attachment:fixed;background-size:100% 100%;padding:0;position:relative;}
+#home{background-color: #D7CCC8;}
 #home:before{content:"";background-color:rgba(53, 25, 25, 0.42);position:absolute;top:0;left:0;width:100%;height:100%;}
 .intro{position:absolute;width:100%;top:50%;left:0;text-align:center;-webkit-transform:translate(0%, -50%);-moz-transform:translate(0%, -50%);-ms-transform:translate(0%, -50%);-o-transform:translate(0%, -50%);transform:translate(0%, -50%);padding:0 15px;}
 .intro h1{font-size:60px;line-height:80px;margin-bottom:16px;color:#FACF50;}
